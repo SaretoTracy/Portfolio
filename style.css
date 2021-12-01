@@ -15,3 +15,7 @@ h1 {
     font-family: sans-serif;
     line-height: 100vh;
 }
+
+em {
+    color: crimson;
+}
