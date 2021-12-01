@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 4rem;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 100vh;
+}
