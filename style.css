@@ -8,7 +8,7 @@
     font-size: 16px;
     --text-primary: #4db69f;
     --text-secondary: blueviolet;
-    --bg-primary: black;
+    --bg-primary: rgb(238, 53, 53);
     --bg-secondary: white;
 }
 
@@ -24,17 +24,27 @@ body::-webkit-scrollbar-thumb {
     background: #cb65c5;
 }
 
+.container {
+    display: flex;
+}
+
 .main {
-    margin-left: 80px;
+    margin-left: 5rem;
     padding: 1rem;
+}
+
+.navbar {
+    height: 100vh;
+    width: 5rem;
+    background-color: white;
 }
 
 h1 {
     color: #cb65c5;
     font-size: 2.5rem;
     text-align: center;
+    margin-top: 180px;
     font-family: sans-serif;
-    margin-top: 200px;
 }
 
 span {
@@ -60,6 +70,7 @@ p {
     color: #cb65c5;
     font-size: 40px;
     padding: 2rem;
+    display: flex;
     float: right;
 }
 
