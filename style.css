@@ -49,6 +49,7 @@ p {
     place-content: center;
     display: grid;
     height: 70px;
+    margin: 20px;
     width: 70px;
 }
 
@@ -59,6 +60,4 @@ p {
     color: #4db69f;
     border-radius: 50%;
     place-content: center;
-    bottom: 0;
-    left: 0;
 }
