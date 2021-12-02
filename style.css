@@ -40,7 +40,6 @@ p {
     font-size: 40px;
     padding: 2rem;
     position: fixed;
-    display: grid;
 }
 
 .icon {
@@ -48,4 +47,15 @@ p {
     padding: 12px;
     background-color: #4db69f;
     border-radius: 50%;
+    place-content: center;
+    display: grid;
+}
+
+.plus {
+    box-shadow: 0px 0px 9px 0px #4db69f;
+    padding: 12px;
+    background-color: #cb65c5;
+    color: #4db69f;
+    border-radius: 50%;
+    place-content: center;
 }
