@@ -39,6 +39,8 @@ p {
     color: #cb65c5;
     font-size: 40px;
     padding: 2rem;
+    position: fixed;
+    display: grid;
 }
 
 .icon {
