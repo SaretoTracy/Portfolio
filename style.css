@@ -4,8 +4,29 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 16px;
+    --text-primary: #4db69f;
+    --text-secondary: blueviolet;
+    --bg-primary: black;
+    --bg-secondary: white;
+}
+
 body {
     background: black;
+}
+
+body::-webkit-scrollbar {
+    width: 0.20rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #cb65c5;
+}
+
+.main {
+    margin-left: 80px;
+    padding: 1rem;
 }
 
 h1 {
@@ -39,6 +60,7 @@ p {
     color: #cb65c5;
     font-size: 40px;
     padding: 2rem;
+    float: right;
 }
 
 .socials>* {
