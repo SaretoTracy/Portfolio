@@ -14,7 +14,7 @@ let char = 0;
 let timer = setInterval(onTick, 50);
 
 function onTick() {
-    constspan = text.querySelectorAll('span')[char]
+    const span = text.querySelectorAll('span')[char]
     span.classList.add('fade');
     char++
     if (char === splittxtLogo.length) {
