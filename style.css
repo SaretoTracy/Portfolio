@@ -30,15 +30,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main {
-    margin-left: 5rem;
     padding: 1rem;
+    width: 100vw;
 }
 
 .navbar {
     height: 100vh;
-    width: 5rem;
     transition: width 260ms ease;
     background-color: var(--bg-primary);
+    position: absolute;
+    left: 0;
 }
 
 .nav {
@@ -128,7 +129,7 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    align-items: end;
 }
 
 .socials>* {
@@ -200,20 +201,20 @@ p {
     line-height: 60px;
 }
 
+
+/**projects html starts here*/
+
 .project {
     text-align: center;
     margin-left: 5rem;
     padding: 4rem;
+    background-color: white;
 }
 
 .header h1 {
-    color: #4db69f;
+    color: #cb65c5;
     font-size: 2.5rem;
     text-align: center;
-}
-
-.header p {
-    color: #cb65c5;
 }
 
 .study {
@@ -224,7 +225,6 @@ p {
 
 .study p {
     font-size: 16px;
-    color: #cb65c5;
 }
 
 .sample {
@@ -240,7 +240,7 @@ p {
 }
 
 h3 {
-    color: #4db69f;
+    color: #cb65c5;
     font-size: 2rem;
     text-align: center;
 }
@@ -254,7 +254,7 @@ h3 {
     border: 1px solid #cb65c5;
     padding: 12px;
     border-radius: 30px;
-    background: #4db69f;
+    background: #cb65c5;
     color: white;
     font-size: 12px;
     margin-top: 250px;
@@ -263,6 +263,6 @@ h3 {
 
 #site a {
     text-decoration: none;
-    color: #cb65c5;
+    color: white;
     font-weight: 700;
 }
