@@ -221,6 +221,10 @@ p {
     text-align: center;
 }
 
+.header p {
+    color: #4db69f;
+}
+
 .study {
     border: 1px solid #cb65c5;
     border-radius: 20px;
@@ -249,7 +253,7 @@ h3 {
 }
 
 p {
-    color: #4db69f;
+    color: black;
 }
 
 #web {
