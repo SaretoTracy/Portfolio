@@ -157,17 +157,27 @@ p {
 
 .about {
     margin-left: 5rem;
-    padding: 3rem;
+    padding: 4rem;
     display: flex;
     justify-content: space-between;
-    margin: 150px;
+}
+
+.skill {
+    color: #cb65c5;
+    font-size: 38px;
+    padding: 12px;
+    box-shadow: 2px 2px 10px 2px #cb65c5;
+    border-radius: 50%;
+    background-color: #4db69f;
+    margin: 2px;
 }
 
 .info {
     border: 1px solid #4db69f;
     padding: 25px;
     box-shadow: 4px 4px 14px 4px #cb65c5;
-    margin-left: 80px;
+    margin-left: 100px;
+    margin-top: 180px;
 }
 
 .me {
