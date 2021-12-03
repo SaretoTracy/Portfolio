@@ -183,3 +183,9 @@ p {
 .info p {
     text-align: center;
 }
+
+.arrow i {
+    font-size: 36px;
+    color: #cb65c5;
+    line-height: 60px;
+}
