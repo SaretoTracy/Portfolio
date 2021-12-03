@@ -88,7 +88,7 @@ body::-webkit-scrollbar-thumb {
     color: #cb65c5;
 }
 
-h1 {
+.main h1 {
     color: #cb65c5;
     font-size: 2.5rem;
     text-align: center;
@@ -150,4 +150,36 @@ p {
     color: #4db69f;
     border-radius: 50%;
     place-content: center;
+}
+
+
+/**about me html*/
+
+.about {
+    margin-left: 5rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+
+.info {
+    border: 1px solid #4db69f;
+    padding: 25px;
+    box-shadow: 4px 4px 14px 4px #cb65c5;
+    margin-left: 80px;
+}
+
+.me {
+    display: block;
+}
+
+.info h1 {
+    color: #cb65c5;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
 }
