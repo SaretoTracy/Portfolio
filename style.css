@@ -8,7 +8,7 @@
     font-size: 16px;
     --text-primary: #4db69f;
     --text-secondary: blueviolet;
-    --bg-primary: rgb(238, 53, 53);
+    --bg-primary: black;
     --bg-secondary: white;
 }
 
@@ -26,6 +26,7 @@ body::-webkit-scrollbar-thumb {
 
 .container {
     display: flex;
+    width: 100%;
 }
 
 .main {
@@ -36,7 +37,55 @@ body::-webkit-scrollbar-thumb {
 .navbar {
     height: 100vh;
     width: 5rem;
-    background-color: white;
+    transition: width 260ms ease;
+    background-color: var(--bg-primary);
+}
+
+.nav {
+    list-style: none;
+}
+
+.item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    height: 8rem;
+    color: var(--text-primary);
+    text-align: center;
+    text-decoration: none;
+}
+
+.linkstxt {
+    margin-left: 1rem;
+    display: none;
+    font-size: 16px;
+}
+
+.navbar:hover {
+    width: 15rem;
+    color: #cb65c5;
+    background: white;
+}
+
+.navbar:hover .linkstxt {
+    display: inline;
+    font-size: 16px;
+    color: #cb65c5;
+}
+
+.menu {
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.navbar-menu:hover {
+    color: #cb65c5;
 }
 
 h1 {
@@ -47,7 +96,7 @@ h1 {
     font-family: sans-serif;
 }
 
-span {
+.main span {
     display: inline-block;
     opacity: 0;
     transition: all 2s ease;
@@ -71,7 +120,15 @@ p {
     font-size: 40px;
     padding: 2rem;
     display: flex;
-    float: right;
+    width: 100%;
+    justify-content: end;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .socials>* {
