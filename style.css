@@ -207,9 +207,13 @@ p {
 }
 
 .header h1 {
-    color: #cb65c5;
+    color: #4db69f;
     font-size: 2.5rem;
     text-align: center;
+}
+
+.header p {
+    color: #cb65c5;
 }
 
 .study {
@@ -220,6 +224,7 @@ p {
 
 .study p {
     font-size: 16px;
+    color: #cb65c5;
 }
 
 .sample {
@@ -235,7 +240,7 @@ p {
 }
 
 h3 {
-    color: #cb65c5;
+    color: #4db69f;
     font-size: 2rem;
     text-align: center;
 }
@@ -249,9 +254,15 @@ h3 {
     border: 1px solid #cb65c5;
     padding: 12px;
     border-radius: 30px;
-    background: #cb65c5;
-    color: #4db69f;
-    font-size: 16px;
+    background: #4db69f;
+    color: white;
+    font-size: 12px;
     margin-top: 250px;
     margin-left: -70px;
+}
+
+#site a {
+    text-decoration: none;
+    color: #cb65c5;
+    font-weight: 700;
 }
