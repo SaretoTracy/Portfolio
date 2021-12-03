@@ -199,3 +199,59 @@ p {
     color: #cb65c5;
     line-height: 60px;
 }
+
+.project {
+    text-align: center;
+    margin-left: 5rem;
+    padding: 4rem;
+}
+
+.header h1 {
+    color: #cb65c5;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.study {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.study p {
+    font-size: 16px;
+}
+
+.sample {
+    margin-left: 200px;
+}
+
+.sample img {
+    display: block;
+}
+
+.box {
+    margin-right: -230px;
+}
+
+h3 {
+    color: #cb65c5;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.top {
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+#site {
+    border: 1px solid #cb65c5;
+    padding: 12px;
+    border-radius: 30px;
+    background: #cb65c5;
+    color: #4db69f;
+    font-size: 16px;
+    margin-top: 250px;
+    margin-left: -70px;
+}
