@@ -30,3 +30,17 @@ function complete() {
     timer = null;
 }
 /**menu navbar */
+var show = document.getElementsByClassName("show");
+var i;
+
+for (i = 0; i < show.length; i++) {
+    show[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var add = this.nextElementSibling;
+        if (add.style.display === "block") {
+            add.style.display = "none";
+        } else {
+            add.style.display = "block";
+        }
+    });
+}
