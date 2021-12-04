@@ -109,7 +109,7 @@ span.fade {
     transform: translateY(0px);
 }
 
-p {
+.intro {
     color: #4db69f;
     text-align: center;
     line-height: 30px;
@@ -132,16 +132,21 @@ p {
     align-items: end;
 }
 
-.socials>* {
+.add>* {
     box-shadow: 0px 0px 9px 0px #cb65c5;
     padding: 12px;
     background-color: #4db69f;
     border-radius: 50%;
+    color: #cb65c5;
     place-content: center;
     display: grid;
     height: 70px;
     margin: 20px;
     width: 70px;
+}
+
+.display {
+    display: none;
 }
 
 .plus {
@@ -151,6 +156,10 @@ p {
     color: #4db69f;
     border-radius: 50%;
     place-content: center;
+    height: 70px;
+    margin: 20px;
+    width: 70px;
+    display: grid;
 }
 
 

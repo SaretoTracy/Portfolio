@@ -29,3 +29,4 @@ function complete() {
     clearInterval(timer);
     timer = null;
 }
+/**menu navbar */
