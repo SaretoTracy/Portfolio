@@ -34,61 +34,6 @@ body::-webkit-scrollbar-thumb {
     width: 100vw;
 }
 
-.navbar {
-    height: 100vh;
-    transition: width 260ms ease;
-    background-color: var(--bg-primary);
-    position: absolute;
-    left: 0;
-}
-
-.nav {
-    list-style: none;
-}
-
-.item {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.links {
-    display: flex;
-    height: 8rem;
-    color: var(--text-primary);
-    text-align: center;
-    text-decoration: none;
-}
-
-.linkstxt {
-    margin-left: 1rem;
-    display: none;
-    font-size: 16px;
-}
-
-.navbar:hover {
-    width: 15rem;
-    color: #cb65c5;
-    background: white;
-}
-
-.navbar:hover .linkstxt {
-    display: inline;
-    font-size: 16px;
-    color: #cb65c5;
-}
-
-.menu {
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 80px;
-}
-
-.navbar-menu:hover {
-    color: #cb65c5;
-}
-
 .main h1 {
     color: #cb65c5;
     font-size: 2.5rem;
