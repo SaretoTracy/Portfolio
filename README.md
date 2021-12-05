@@ -1,6 +1,6 @@
 # My-Portfolio
 
-A landing page of a fictional studio
+A landing page of my portfolio
 
 ## Built With
 
@@ -10,7 +10,7 @@ A landing page of a fictional studio
 - Javascript
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://saretotracy.github.io/Portfolio/)
 
 
 ## Getting Started
