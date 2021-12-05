@@ -107,6 +107,7 @@ span.fade {
     background: #4db69f;
     color: #cb65c5;
     cursor: pointer;
+    border: #4db69f;
 }
 
 .me {
