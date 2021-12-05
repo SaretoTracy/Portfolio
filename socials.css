@@ -15,6 +15,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: end;
+    top: 0;
 }
 
 .socials {

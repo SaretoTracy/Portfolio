@@ -65,10 +65,11 @@ span.fade {
 /**about me css*/
 
 .about {
-    margin-left: 5rem;
-    padding: 4rem;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    padding: 4rem;
+    justify-content: space-around;
+    background-color: black;
 }
 
 .skill {
@@ -82,11 +83,8 @@ span.fade {
 }
 
 .info {
-    border: 1px solid #4db69f;
-    padding: 25px;
-    box-shadow: 4px 4px 14px 4px #cb65c5;
-    margin-left: 100px;
-    margin-top: 180px;
+    text-align: left;
+    margin-left: 50px;
 }
 
 .me {
@@ -97,10 +95,25 @@ span.fade {
     color: #cb65c5;
     font-size: 2.5rem;
     text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
 }
 
 .info p {
-    text-align: center;
+    color: white;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+p span {
+    line-height: 50px;
+    background: rgb(77, 182, 159);
+    background: linear-gradient(90deg, rgba(203, 101, 197, 1) 0%, rgba(4, 4, 4, 1) 75%, rgba(77, 182, 159, 1) 100%);
+}
+
+em {
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .arrow i {
@@ -112,60 +125,95 @@ span.fade {
 
 /**projects css starts here*/
 
-.case {
-    display: flex;
-    justify-content: right;
-    margin-top: 80px;
+.first {
+    margin-left: 9rem;
 }
 
-.project {
+.header {
     text-align: center;
-    padding: 4rem;
+    background: rgb(77, 182, 159);
+    background: linear-gradient(90deg, rgba(77, 182, 159, 1) 0%, rgba(4, 4, 4, 1) 75%, rgba(203, 101, 197, 1) 100%);
 }
 
 .header h1 {
-    color: #cb65c5;
+    color: #4db69f;
     font-size: 2.5rem;
     text-align: center;
 }
 
 .header p {
-    color: #4db69f;
+    margin-top: 25px;
+    color: #cb65c5;
+    font-size: 22px;
+    padding-bottom: 40px;
 }
 
-.study {
-    border: 1px solid #cb65c5;
-    border-radius: 20px;
-    padding: 25px;
-    align-items: center;
-    margin: 8px;
-    background-color: white;
+.bcg {
+    margin-top: 20px;
+    min-height: 350px;
+    margin-left: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.study:nth-child(2) {
-    box-shadow: 0px 0px 40px 0px #cb65c5;
-    border: 1px solid clear;
+.letuce {
+    background-image: url("images/Screenshot\ from\ 2021-12-03\ 17-14-32.png ");
 }
 
-.sample {
-    margin: 0 auto;
-    display: block;
+.pet {
+    background-image: url("images/Screenshot\ from\ 2021-12-03\ 17-07-31.png");
+}
+
+.serviser {
+    background-image: url("images/Screenshot\ from\ 2021-12-05\ 12-57-51.png");
+}
+
+.textile {
+    background-image: url("images/Screenshot\ from\ 2021-12-03\ 17-17-14.png");
 }
 
 .box {
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#edit {
     text-align: center;
+    letter-spacing: 1px;
+    padding-top: 120px;
 }
 
-h3 {
+.box h3 {
     color: #cb65c5;
+    font-size: 36px;
+    font-weight: 900;
 }
 
-p {
-    color: black;
+.box p {
+    color: white;
+    font-size: 28px;
 }
 
 #web {
-    font-size: 24px;
-    color: #cb65c5;
-    margin-top: 20px;
+    font-size: 38px;
+    margin-top: 40px;
+}
+
+.git {
+    color: rgb(211, 35, 211);
+}
+
+#site {
+    padding: 12px 20px;
+    border: 1px solid #cb65c5;
+    border-radius: 30px;
+    background-color: #cb65c5;
+    color: white;
+}
+
+#site:hover {
+    background-color: #4db69f;
+    border: #4db69f;
 }

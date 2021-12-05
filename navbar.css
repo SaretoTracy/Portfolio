@@ -14,6 +14,8 @@ body {
     background-color: var(--bg-primary);
     position: absolute;
     left: 0;
+    top: 0;
+    position: fixed;
 }
 
 .nav {
@@ -46,7 +48,7 @@ body {
 .navbar:hover {
     width: 15rem;
     color: #cb65c5;
-    background: black;
+    background: none;
 }
 
 .navbar:hover .linkstxt {
