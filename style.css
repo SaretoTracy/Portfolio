@@ -69,7 +69,6 @@ span.fade {
     display: flex;
     padding: 4rem;
     justify-content: space-around;
-    background-color: black;
 }
 
 .skill {
@@ -84,11 +83,35 @@ span.fade {
 
 .info {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 80px;
+}
+
+#proj {
+    position: absolute;
+    bottom: 0;
+    left: 45rem;
+}
+
+#proj button {
+    padding: 12px 18px;
+    border-radius: 30px;
+    background: #cb65c5;
+    color: #4db69f;
+    font-size: 20px;
+    border: 1px solid #cb65c5;
+    margin: 10px;
+    transition: all 250ms ease-in-out;
+}
+
+#proj button:hover {
+    background: #4db69f;
+    color: #cb65c5;
+    cursor: pointer;
 }
 
 .me {
     display: block;
+    margin-top: 40px;
 }
 
 .info h1 {
@@ -96,6 +119,7 @@ span.fade {
     font-size: 2.5rem;
     text-align: center;
     margin-top: 20px;
+    margin-left: 500px;
     padding-bottom: 50px;
 }
 
@@ -143,7 +167,7 @@ em {
 
 .header p {
     margin-top: 25px;
-    color: #cb65c5;
+    color: white;
     font-size: 22px;
     padding-bottom: 40px;
 }
@@ -211,6 +235,7 @@ em {
     border-radius: 30px;
     background-color: #cb65c5;
     color: white;
+    transition: all 250ms ease-in-out;
 }
 
 #site:hover {
