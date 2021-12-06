@@ -163,7 +163,7 @@ span.fade {
 
 .info h1 {
     color: #cb65c5;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 20px;
     margin-left: 500px;
@@ -193,10 +193,6 @@ em {
     left: 20rem;
 }
 
-.skills div h1 {
-    color: #cb65c5;
-}
-
 .display {
     display: flex;
     align-items: center;
@@ -219,7 +215,18 @@ em {
 
 .skills h1 {
     font-size: 3rem;
-    color: #cb65c5;
+    color: #4db69f;
+    animation: glow 650ms ease-in-out infinite alternate;
+    margin-top: 24rem;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 5px 5px 10px #4db69f, 0 0 20px #fff, 0 0 30px #cb65c5, 0 0 40px #cb65c5, 0 0 50px #cb65c5, 0 0 60px #cb65c5, 0 0 70px #cb65c5;
+    }
+    to {
+        text-shadow: 5px 5px 10px #cb65c5, 0 0 30px #4db69f, 0 0 40px #4db69f, 0 0 50px #4db69f, 0 0 60px #4db69f, 0 0 70px #4db69f, 0 0 80px #ff4da6;
+    }
 }
 
 .skillgallery {
