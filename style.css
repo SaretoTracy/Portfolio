@@ -32,16 +32,16 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     position: absolute;
     left: 18rem;
+    top: 6rem;
 }
 
 .main h1 {
     color: #cb65c5;
     font-size: 2.5rem;
-    margin-top: 2opx;
     font-family: sans-serif;
 }
 
-main h2 {
+.main h2 {
     color: #4db69f;
     margin-top: 100px;
 }
@@ -64,58 +64,6 @@ span.fade {
     line-height: 30px;
     margin-top: 30px;
     font-size: 24px;
-}
-
-.skills {
-    left: 28rem;
-    position: absolute;
-    bottom: 0;
-    top: 18rem;
-}
-
-.display {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#skillicon {
-    font-size: 26pxrem;
-    line-height: 2rem;
-    font-weight: 600;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.skills h1 {
-    font-size: 26px;
-    color: #cb65c5;
-    text-align: center;
-}
-
-.skillgallery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#skillicon h2 {
-    font-weight: 600;
-    font-size: 26px;
-    text-align: center;
-}
-
-#skillicon:hover {
-    font-size: 26px;
-    color: #4db69f;
-    line-height: 3rem;
-}
-
-#skillicon img:hover {
-    width: 120px;
 }
 
 .contacts {
@@ -237,6 +185,64 @@ p span {
 em {
     font-size: 32px;
     font-weight: 800;
+}
+
+.skills {
+    position: absolute;
+    top: 50rem;
+    left: 20rem;
+}
+
+.skills div h1 {
+    color: #cb65c5;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding: 1rem;
+}
+
+#skillicon {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills h1 {
+    font-size: 3rem;
+    color: #cb65c5;
+    text-align: center;
+}
+
+.skillgallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3.5rem;
+}
+
+#skillicon h2 {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+#skillicon:hover {
+    font-size: 32px;
+    color: #cb65c5;
+    line-height: 3rem;
+}
+
+#skillicon img:hover {
+    width: 200px;
 }
 
 .arrow i {
