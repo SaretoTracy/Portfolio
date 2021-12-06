@@ -311,14 +311,14 @@ em {
 }
 
 .box {
-    height: 500px;
+    height: 800px;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 #edit {
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 120px;
+    padding-top: 250px;
 }
 
 .box h3 {
