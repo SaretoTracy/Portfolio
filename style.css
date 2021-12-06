@@ -29,14 +29,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main {
-    padding: 1rem;
     width: 100vw;
+    position: absolute;
+    left: 18rem;
 }
 
 .main h1 {
     color: #cb65c5;
     font-size: 2.5rem;
-    text-align: center;
     margin-top: 100px;
     font-family: sans-serif;
 }
@@ -56,14 +56,15 @@ span.fade {
 
 .intro {
     color: #4db69f;
-    text-align: center;
     line-height: 30px;
     margin-top: 30px;
 }
 
 .skills {
+    left: 18rem;
     position: absolute;
-    left: 16rem;
+    bottom: 0;
+    top: 18rem;
 }
 
 .display {
@@ -73,7 +74,7 @@ span.fade {
 }
 
 #skillicon {
-    font-size: 1.2rem;
+    font-size: 26pxrem;
     line-height: 2rem;
     font-weight: 600;
     padding: 1rem;
@@ -84,7 +85,7 @@ span.fade {
 }
 
 .skills h1 {
-    font-size: 3rem;
+    font-size: 26px;
     color: #cb65c5;
     text-align: center;
 }
@@ -97,8 +98,18 @@ span.fade {
 
 #skillicon h2 {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 26px;
     text-align: center;
+}
+
+#skillicon:hover {
+    font-size: 26px;
+    color: #cb65c5;
+    line-height: 3rem;
+}
+
+#skillicon img:hover {
+    width: 150px;
 }
 
 .contacts {
@@ -113,9 +124,9 @@ span.fade {
 
 .socials {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+    position: absolute;
+    left: 80rem;
+    bottom: 0;
 }
 
 .add {
