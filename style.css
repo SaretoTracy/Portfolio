@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main {
-    width: 100vw;
+    width: 100%;
     position: absolute;
     left: 18rem;
 }
@@ -37,10 +37,11 @@ body::-webkit-scrollbar-thumb {
 .main h1 {
     color: #cb65c5;
     font-size: 2.5rem;
+    margin-top: 2opx;
     font-family: sans-serif;
 }
 
-h2 {
+main h2 {
     color: #4db69f;
     margin-top: 100px;
 }
