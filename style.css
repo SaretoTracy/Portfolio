@@ -214,12 +214,12 @@ em {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 50px;
 }
 
 .skills h1 {
     font-size: 3rem;
     color: #cb65c5;
-    text-align: center;
 }
 
 .skillgallery {
