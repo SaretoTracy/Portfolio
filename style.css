@@ -101,6 +101,57 @@ span.fade {
     text-align: center;
 }
 
+.contacts {
+    color: #cb65c5;
+    font-size: 40px;
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    top: 0;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.add {
+    display: none;
+}
+
+.pop {
+    display: block;
+}
+
+.add>* {
+    box-shadow: 0px 0px 9px 0px #cb65c5;
+    padding: 12px;
+    background-color: #4db69f;
+    border-radius: 50%;
+    color: #cb65c5;
+    place-content: center;
+    display: grid;
+    height: 70px;
+    margin: 20px;
+    width: 70px;
+}
+
+.plus {
+    box-shadow: 0px 0px 9px 0px #4db69f;
+    padding: 12px;
+    background-color: #cb65c5;
+    color: #4db69f;
+    border-radius: 50%;
+    place-content: center;
+    height: 70px;
+    margin: 20px;
+    width: 70px;
+    display: grid;
+}
+
 
 /**about me css*/
 
