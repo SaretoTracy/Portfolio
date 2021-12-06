@@ -37,8 +37,12 @@ body::-webkit-scrollbar-thumb {
 .main h1 {
     color: #cb65c5;
     font-size: 2.5rem;
-    margin-top: 100px;
     font-family: sans-serif;
+}
+
+h2 {
+    color: #4db69f;
+    margin-top: 100px;
 }
 
 .main span {
@@ -58,10 +62,11 @@ span.fade {
     color: #4db69f;
     line-height: 30px;
     margin-top: 30px;
+    font-size: 24px;
 }
 
 .skills {
-    left: 18rem;
+    left: 28rem;
     position: absolute;
     bottom: 0;
     top: 18rem;
@@ -109,7 +114,7 @@ span.fade {
 }
 
 #skillicon img:hover {
-    width: 150px;
+    width: 120px;
 }
 
 .contacts {
@@ -126,7 +131,7 @@ span.fade {
     width: 100%;
     position: absolute;
     left: 80rem;
-    bottom: 0;
+    bottom: 8rem;
 }
 
 .add {
