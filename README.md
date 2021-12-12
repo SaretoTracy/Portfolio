@@ -42,7 +42,7 @@ $ git clone https://github.com/SaretoTracy/Portfolio.git
 
   By Tracy Chepkorir
 
-- GitHub: [@saretotracy](https://github.com/saretoduncan)
+- GitHub: [@saretotracy](https://github.com/saretotracy)
 - email: <a href="mailto:tracychepkorir99@gmailcom"> mail📪</a>
 
 
