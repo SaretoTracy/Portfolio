@@ -6,3 +6,5 @@ fetch('navbar.html')
         newelem.innerHTML = text;
         oldelem.parentNode.replaceChild(newelem, oldelem);
     });
+    feather.replace()
+//https://twitter.com/One_div
