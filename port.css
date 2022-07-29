@@ -14,12 +14,19 @@
     border-left: 1rem solid #E3C52A ;
     border-top: 1rem solid #E3C52A ;
     padding: 10px;
-    width: 60%;
+    width: 70%;
+}
+svg{
+    width: 2rem;
+}
+p{
+    font-size: 18px;
+    word-spacing: 5px;
 }
 h1{
     color: #3D3D3D;
     font-family: 'Cormorant SC', serif;
-    font-size: clamp(4rem, 8vw, 9rem);;
+    font-size: clamp(3rem, 8vw, 8rem);;
     font-weight: 700;
     /* width: 80%; */
 
@@ -33,12 +40,18 @@ span{
     border-right: 1rem solid #E3C52A;
     border-bottom: 1rem solid #E3C52A ;
     padding: 10px;
-    width: 60%;
+    width: 70%;
     float: right;
-    margin-top: 3rem;
+    margin-top: 1rem;
+}
+h5{
+    color: #3D3D3D;
+    font-family: 'Cormorant SC', serif;
+    font-size:2.3rem;
+    font-weight: 700;
 }
 .header{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 .nav ul{
     display: flex;
